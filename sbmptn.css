@@ -1,0 +1,60 @@
+body { border:0; margin:0; }
+a {text-decoration:none;color:#0000FF;font-weight:bold;}
+td.jud {text-align:center;vertical-align;middle;height:100%;}
+table.st1 {text-align:center;vertical-align:top;width:100%;height:100%;border:0;padding:0;border-spacing:0;}
+li.t1 {font: 14px Verdana,Geneva,Arial;color:#000000; line-height:22px;}
+li.t2 {font: 14px Verdana,Geneva,Arial;color:#ff0000; line-height:22px;}
+.tc {text-align:center;vertical-align:middle;height:100%;}
+.ct {border-spacing:5px;padding:4px;border:0;text-align:center;margin:auto;}
+.logo1 {text-align:left;vertical-align:middle;background-color:#2e72b6;height:100px;width:100px;}
+.logo2 {text-align:left;vertical-align:middle;background-color:#2e72b6;}
+.logo3 {text-align:right;vertical-align:middle;background-color:#ffffff;width:374px;}
+.nb {border:0;padding:0;border-spacing:0;}
+.f1 {font-family:Tahoma,Verdana,Arial,'Sans Serif';color:white;font-size:14px; }
+.f2 {font-family:Verdana,Geneva,Arial;font-size:50px;font-weight:bold; }
+.ti1 {font:bold 24px Tahoma,Verdana,Arial,'Sans Serif';color:#666666}
+.ti2 {font:16px Tahoma,Verdana,Arial,'Sans Serif';color:#ff871b;}
+.ti3 {font:14px Tahoma,Verdana,Arial,'Sans Serif';color:#bbbbbb;}
+.sp {font:4px Tahoma,Verdana,Arial,'Sans Serif'; color: #aaaaaa;}
+.ket {font:12px Tahoma,Verdana,Arial,'Sans Serif';color:#4a4a4a;}
+.att {font:14px Tahoma,Verdana,Arial,'Sans Serif';color:#888888;padding-top:2px;padding-bottom:2px;}
+.attsp {font:14px Tahoma,Verdana,Arial,'Sans Serif';color:#ff0000;padding-top:2px;padding-bottom:2px;}
+.attbd {font:14px Tahoma,Verdana,Arial,'Sans Serif';color:#000000;padding-top:2px;padding-bottom:2px;}
+.attti {font:22px Tahoma,Verdana,Arial,'Sans Serif';color:#ff871b;padding-top:2px;padding-bottom:2px;}
+.link {font: Bold 12px Tahoma,Verdana,Arial,'Sans Serif';}
+.err {text-align:center;font:14px Tahoma, Verdana, Arial, 'Sans Serif';color:#ff0000;}
+.bl {border-spacing:8px;padding:8px;border:0;width:100%;text-align:center;}
+.bd {border-spacing:4px;padding:4px;border:1;width:100%;text-align:center;}
+.tbd {border-color:#9391aa;border-spacing:4px;padding:4px;width:100%;border:0;}
+.tds {background-color:#e7efff;border-color:#ffffff;text-align:left;vertical-align:top;padding:5px;}
+.sj {font:22px Tahoma,Verdana,Arial,'Sans Serif';color:#83819f;text-align:left;}
+.sjsp {font:22px Tahoma,Verdana,Arial,'Sans Serif';color:#ff0000;text-align:left;}
+.sjk {font:18px Tahoma,Verdana,Arial,'Sans Serif';color:#83819f;text-align:left;}
+.sjksp {font:18px Tahoma,Verdana,Arial,'Sans Serif';color:#ff0000;text-align:left;}
+.sjkbd {font:18px Tahoma,Verdana,Arial,'Sans Serif';color:#000000;text-align:left;}
+.btcont {vertical-align:middle;text-align:center;height:50px;}
+.btgrey {
+	border: medium none;background: url(./images/tombolbw.jpg) #fefefe no-repeat 0px 0px; 
+	font: bold 14px/18px Geneva, Arial, Helvetica, sans-serif;width:104px;color:#ffffff;height:30px;
+}
+.btgreyw {
+	border: medium none;background: url(./images/tombollbw.jpg) #fefefe no-repeat 0px 0px; 
+	font: bold 14px/18px Geneva, Arial, Helvetica, sans-serif;width:140px;color:#ffffff;height:30px;
+}
+.lb {font:16px Tahoma,Verdana,Arial,'Sans Serif';color:#888888;padding-top:2px;padding-bottom:2px;}
+.lbsp {font:16px Tahoma,Verdana,Arial,'Sans Serif';color:#ff0000;padding-top:2px;padding-bottom:2px;}
+.lbbd {font:16px Tahoma,Verdana,Arial,'Sans Serif';color:#000000;padding-top:2px;padding-bottom:2px;}
+.dash {font:12px Tahoma,Verdana,Arial,'Sans Serif';}
+.captcha { display:table-cell; width:500px;height:100px;left:auto;right:auto;top:auto;bottom:auto;text-align:center;vertical-align:middle; }
+
+.marquee {height:30px;overflow:hidden;position:relative;background:#201059;color:yellow;border:0;padding:0;border-spacing:0;
+			font-family:Tahoma,Verdana,Geneva,Arial;font-size:14px;white-space:nowrap;
+}
+.marquee span {width:100%;height:30px;line-height:30px;position:absolute;top:0;
+    -webkit-animation: mymove 60s linear infinite; /* Chrome, Safari, Opera */ 
+    animation: mymove 60s linear infinite;
+}
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove { 0% {left: 110%; } 100% {left: -160%; } }
+/* Standard syntax */
+@keyframes mymove { 0% {left: 110%; } 100% {left: -160%;} }
